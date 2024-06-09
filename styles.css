@@ -1,0 +1,1009 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+}
+.navBar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(37, 37, 37);
+    border-bottom: 20px  solid rgb(104, 103, 103);
+    color: white;
+}
+.navBar ul{
+    display: flex;
+}
+.navBar li{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-family: minecraft;
+}
+.navBar li:hover{
+    color: rgb(104, 103, 103);
+}
+.cars{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+}
+.img{
+    background-image: url(1317021.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: end;
+}
+.cars div div{
+    width: 400px;
+    height: 350px;
+    font-size: 20px;
+    background-image: url(Fondofinal_transparent.png);
+    background-size: cover;
+    margin-left: 15%;
+    margin-bottom: -5%;
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    color: white;
+}
+.img h3{
+    margin-bottom: -25%;
+}
+.secondBar{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    height: 20vh;
+    border-top: 20px solid rgb(104, 103, 103);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.secondBar div{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+.nott1{
+    background-image: url(1317021.png);
+    background-size: cover;
+    background-position: 50%;
+}
+.nott2{
+    background-image: url(1316024.png);
+    background-size: cover;
+    background-position: 50%;
+}
+.nott3{
+    background-image: url(1358387.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+.nott4{
+    background-image: url(1317021.png);
+    background-size: cover;
+    background-position: 50%;
+}
+.nott5{
+    background-image: url(1317021.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.secondBar div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.text{
+    position: absolute;
+    color: white;
+    padding: 20px;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-family: minecraft;
+    font-size: 40px;
+}
+.navButton{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    padding: 0;
+    margin: 30px;
+    display: none;
+    background-image: url(2.png);
+    background-color: transparent;
+}
+
+
+.navBar2{
+    position: absolute;
+    background-color: transparent;
+    height: 600px;
+    width: 0;
+    z-index: 2;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    overflow: scroll;
+    transition: 1s;
+    border-bottom: 20px solid rgb(104, 103, 103);
+    border-top: 20px solid rgb(104, 103, 103);
+}
+.clouseButton{
+    margin: 0;
+    border: 0;
+    margin-left: 80%;
+    position: absolute;
+}
+.navBar2 div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.navBar2 h3{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.navBar2 li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    border-top: 5px solid rgb(104, 103, 103);
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: minecraft;
+}
+.navBar2 ul{
+    width: 80%;
+    margin-top: 35%;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 20px solid rgb(104, 103, 103);
+}
+.baner{
+    width: 100%;
+    background-size: cover;
+    background-position: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(37, 37, 37) ;
+}
+.containerImg{
+    width: 100px;
+    height: 100px;
+}
+.footer ul{
+    display: flex;
+    font-size: 30px;
+    justify-content:space-between;
+    color: white;
+}
+footer li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer li:hover{
+    color: rgb(104, 103, 103);
+}
+@media (max-width: 1000px){
+    .cars div div{
+        width: 200px;
+        height: 150px;
+        font-size: 10px;
+        background-color: rgb(37, 37, 37);
+        background-image: none;
+        border-top: 20px solid rgb(104, 103, 103);
+        margin-bottom: -6%;
+    }
+    .img h3{
+        margin-bottom: 0;
+    }
+    .navBar ul{
+        display: none;
+    }
+    .navBar{
+        font-size: 12px;
+        justify-content: right;
+    }
+    .navButton{
+        display: block;
+    }
+    .secondBar{
+        justify-content: center;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .footer ul{
+        font-size: 30px;
+    }
+    .footer{
+        height: 100px;
+    }
+    .containerImg{
+        height: 100px;
+        width: 100px;;
+    }
+    .newHeader{
+        align-items: start;
+        .navButton{
+            margin-left: 80%;
+            margin-top: -0.5%;
+        }
+
+        li{display: none;
+        }
+    }
+
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('minecraftia-regular-webfont.woff2') format('woff2'),
+         url('minecraftia-regular-webfont.woff') format('woff'),
+         url('Minecraftia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.newHeader{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 20px solid rgb(104, 103, 103);
+    padding-top: 2%;
+    padding-bottom: 3%;
+    ul{
+        display: flex;
+        font-size: 20px;
+        font-family: minecraft;
+        color: white;
+    }
+    li{
+        list-style: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    li:hover{
+        color: rgb(104, 103, 103);
+    }
+}
+.newSeccion{
+    height: 60%;
+    width: 100%;
+    background-color:rgb(37, 37, 37);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.newBaner{
+    height: 30%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.newFooter{
+    height: 10%;
+    width: 100%;
+}
+.newContainer1{
+    width: 100%;
+    height: 25%;
+
+    .forimg1{
+        background-image: url(1317021.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .fortext1{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        border-bottom: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.newContainer2{
+    width: 100%;
+    height: 25%;
+
+    .forimg2{
+        background-image: url(1316024.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .fortext2{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        border-bottom: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.newContainer3{
+    width: 100%;
+    height: 25%;
+
+    .forimg3{
+        background-image: url(1358387.jpeg);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .fortext3{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        border-bottom: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.newContainer4{
+    width: 100%;
+    height: 25%;
+
+    .forimg4{
+        background-image: url(1316024.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .fortext4{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        border-bottom: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.newContainer5{
+    width: 100%;
+    height: 25%;
+
+    .forimg5{
+        background-image: url(1316024.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    .fortext5{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.guiasBaner{
+    height: 30%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+
+
+.guiasSeccion{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .nintendo{
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #DE0000;
+        border-radius: 5px;
+        .nintendoImg{
+            width: 0;
+            height: 500px;
+            overflow: scroll;
+            overflow-x: hidden;
+            transition: 1s;
+            .nintendoImg1{
+                background-image: url(1351785.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .nintendoImg2{
+                background-image: url(1317021.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .nintendoImg3{
+                background-image: url(1358387.jpeg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .nintendoImg4{
+                background-image: url(531822.jpg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%;
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+
+
+            .nintendoImg1:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .nintendoImg2:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .nintendoImg3:hover{
+                height: 250px;  
+                font-size: 30px;
+            }
+            .nintendoImg4:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            transition: 1s;
+        }
+
+    }
+
+
+
+    .playStation{
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 5px;
+        .playStationImg{
+            width: 0;
+            height: 500px;
+            overflow: scroll;
+            overflow-x: hidden;
+            transition: 1s;
+            .playStationImg1{
+                background-image: url(1351785.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .playStationImg2{
+                background-image: url(1317021.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .playStationImg3{
+                background-image: url(1358387.jpeg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .playStationImg4{
+                background-image: url(531822.jpg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%;
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+
+
+            .playStationImg1:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .playStationImg2:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .playStationImg3:hover{
+                height: 250px;  
+                font-size: 30px;
+            }
+            .playStationImg4:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            transition: 1s;
+        }
+
+    }
+
+    .xbox{
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:   #00A637;
+        border-radius: 5px;
+        .xboxImg{
+            width: 0;
+            height: 500px;
+            overflow: scroll;
+            overflow-x: hidden;
+            transition: 1s;
+            .xboxImg1{
+                background-image: url(1351785.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .xboxImg2{
+                background-image: url(1317021.png);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .xboxImg3{
+                background-image: url(1358387.jpeg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%; 
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+            .xboxImg4{
+                background-image: url(531822.jpg);
+                height: 125px;
+                width: 100%;
+                background-size: cover;
+                background-position: 50% 50%;
+                transition: 1s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000; 
+            }
+
+
+            .xboxImg1:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .xboxImg2:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+            .xboxImg3:hover{
+                height: 250px;  
+                font-size: 30px;
+            }
+            .xboxImg4:hover{
+                height: 250px;
+                font-size: 30px;
+            }
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            transition: 1s;
+        }
+
+    }
+
+
+}
+
+
+.containerForGuias{
+    height: 500px;
+        width: 100%;
+        display: flex;
+        background-image: url(combined_image.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-color: #383838;
+        color: white;
+        align-items: center;
+        border-top: 20px solid rgb(104, 103, 103);
+        text-align: center;
+        border-bottom: 20px solid rgb(104, 103, 103);
+        p{
+            margin: 0 20% 0 20%;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(192, 188, 188);
+            span{
+                font-size: 35px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+}
+
+.guiasFooter{
+    height: 10%;
+    widows: 100%;
+}
+
+
+/* Lineas de timepo */
+
+.lineasBaner{
+    height: 30%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.lineasSeccion{
+    width: 100%;
+    height: 60%;
+    .titullineas{
+        color: white;
+        padding: 5%;
+        text-align: center;
+    }
+}
+
+
+
+.back{
+    width: 100%;
+    height: 900px;
+    background-image: url(zelda.jpg);
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    border-bottom: 20px solid rgb(103,104, 103);
+    border-top: 20px solid rgb(103,104, 103);
+
+}
+
+
+.backContainer{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-left: 10%;
+    width: 50%;
+    div{
+        width: 80%;
+        height: 1600px;
+        margin-top: 10%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5%;
+        margin-bottom: 10%;
+    }
+}
+.backContainer::-webkit-scrollbar {
+    display: none;  /* Safari y Chrome */
+}
+
+.back2{
+    width: 100%;
+    height: 900px;
+    background-image: url(zelda.jpg);
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    border-bottom: 20px solid rgb(103,104, 103);
+    border-top: 20px solid rgb(103,104, 103);
+
+}
+
+
+.backContainer2{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-left: 10%;
+    width: 50%;
+    div{
+        width: 80%;
+        height: 1600px;
+        margin-top: 10%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5%;
+        margin-bottom: 10%;
+    }
+}
+.backContainer2::-webkit-scrollbar {
+    display: none;  /* Safari y Chrome */
+}
+
+
+@media (max-width: 1000px) {
+    .backContainer{
+        width: 80%;
+        div{
+            width: 90%;
+        }
+    }
+    .backContainer2{
+        width: 80%;
+        div{
+            width: 100%;
+        }
+    }
+
+}
